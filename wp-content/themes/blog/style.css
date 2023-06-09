@@ -1,0 +1,101 @@
+/*
+Theme name: Blog Tema
+Theme URI:
+Author: Alex Reis
+Althor URI:alexreisbsb1@gmail.com
+Github Theme URL: https://github.com/allexx-29
+Description: Tema costumizado para blog
+Version: 1.0.0
+Text domain: pt_BR
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+.wp-block-image img,
+img {
+    max-width: 100% !important;
+    height: auto;
+}
+
+header {
+    background-color: #dedede;
+    width: 100%;
+}
+
+footer {
+    background-color: #dedede;
+    width: 100%
+}
+
+aside {
+    padding-left: 2rem;
+}
+
+section {
+}
+
+h1, h2, h3, h4, h5, h6, p, form  {
+    margin-bottom: 2rem;
+}
+
+header .container,
+main.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 4rem 0;
+}
+
+.header-menu,
+main section {
+    width: 66.6%;
+}
+
+.menu-header-container {
+    width: 100%;
+}
+
+.header-logo,
+main aside {
+    width: 33.3%;
+    display: inline;
+}
+
+ul.menu,
+#sidebar ul {
+    list-style: none;
+    width: 100%;
+}
+
+ul.menu {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+ul.menu li {
+    margin: 1rem .5rem;
+    display: inline-flex;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 100%;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    width: 1000px;
+}
